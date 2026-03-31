@@ -27,7 +27,6 @@ def plot_curves(x, y, y_pred, epoch):
     ax.set_xlabel("x")
     ax.set_ylabel("y")
     ax.grid(True)
-    ax.legend()
 
     return fig
 
